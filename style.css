@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+}
+
+.login-form {
+  width: fit-content;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.col1 {
+  background-color: #ffffff;
+  text-align: center;
+  color: #525252;
+  font-size: 16px;
+}
+.col1 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  text-shadow: 0px 2px 2px gray;
+  letter-spacing: -2px;
+  margin: 0;
+}
+.col1 .input-field {
+  display: flex;
+  align-items: center;
+  background-color: #f0edff;
+  opacity: 80%;
+  border-radius: 16px;
+  width: 364px;
+  border: 0;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 18px;
+  margin-bottom: 18px;
+}
+.col1 .input-field:focus {
+  border: 1px solid black;
+  box-shadow: 0px 2px 2px gray;
+}
+.col1 .input-field input {
+  outline: none;
+  border: none;
+  background-color: #f0edff;
+}
+.col1 .input-field img {
+  padding-right: 6px;
+}
+
+input[type="submit"] {
+  padding: 17px 30px;
+  background: linear-gradient(98.3deg, #9181f4 0%, #5038ed 100%);
+  border: none;
+  border-radius: 16px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+strong {
+  color: #000000;
+}
+.col1 .others {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.col1 .others p {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #f0edff;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.col1 .others p span {
+  background: #fff;
+  padding: 0 3px;
+}
+.col1 .login-button {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  opacity: 100%;
+  border-radius: 16px;
+  width: 364px;
+  border: 1px solid #f0edff;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 18px;
+  margin-bottom: 18px;
+}
+.col1 .login-button button {
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.col1 .login-button button img {
+  padding-right: 8px;
+}
+
+.col2 {
+  background-image: url("./Rectangle 4.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  align-items: center;
+  display: flex;
+}
+
+.col2 .main-area {
+  margin: 0 auto;
+  background-color: #ffffff;
+  opacity: 21%;
+  width: 412px;
+  height: 524px;
+  border: 3px solid #ffffff;
+  border-radius: 46px;
+}
